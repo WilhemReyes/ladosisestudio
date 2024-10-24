@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WR9 Records</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="wr9-records-high-resolution-logo-grayscale-transparent.png" alt="WR9 Records Logo"></div>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#appointment">Saca Tu Turno</a></li>
+                <li><a href="#privacy">Política de Privacidad</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <h1>Bienvenido a WR9 Records</h1>
+            <p>El mejor estudio de grabación para tus proyectos musicales</p>
+            <button class="cta-button" onclick="location.href='#appointment'">Reservar ahora</button>
+        </section>
+        <section id="about" class="content">
+            <h2>Nosotros</h2>
+            <p>WR9 Records es un estudio de grabación profesional con años de experiencia en la industria musical.</p>
+        </section>
+        <section id="services" class="content">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Grabación de audio</li>
+                <li>Mezcla y masterización</li>
+                <li>Producción musical</li>
+                <li>Asesoría musical</li>
+            </ul>
+        </section>
+        <section id="portfolio" class="content">
+            <h2>Portafolio</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Proyecto 1">
+                    <p>Proyecto 1</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Proyecto 2">
+                    <p>Proyecto 2</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpg" alt="Proyecto 3">
+                    <p>Proyecto 3</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="content">
+            <h2>Contacto</h2>
+            <p>Para más información, síguenos en nuestras redes sociales:</p>
+            <ul class="social-links">
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+            <form action="https://formspree.io/xwpkeeve" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Número de teléfono o WhatsApp:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="appointment" class="content">
+            <h2>Saca Tu Turno</h2>
+            <p>Haz clic en el botón de abajo para reservar tu turno a través de WhatsApp:</p>
+            <a href="https://wa.me/+5358894863" class="cta-button">Reservar Turno</a>
+        </section>
+        <section id="privacy" class="content">
+            <h2>Política de Privacidad</h2>
+            <p>En WR9 Records, valoramos tu privacidad y estamos comprometidos a proteger tus datos personales. Toda la información recopilada se utilizará únicamente para proporcionar y mejorar nuestros servicios. No compartiremos tu información con terceros sin tu consentimiento explícito.</p>
+            <p>Para más detalles sobre nuestras prácticas de privacidad, visita nuestra <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank">Política de Privacidad</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 WR9 Records. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
