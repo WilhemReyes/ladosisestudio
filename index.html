@@ -11,7 +11,12 @@
     <header>
         <nav>
             <div class="logo"><img src="wr9-records-high-resolution-logo-grayscale-transparent.png" alt="WR9 Records Logo"></div>
-            <ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="menu">
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#about">Nosotros</a></li>
                 <li><a href="#services">Servicios</a></li>
@@ -39,6 +44,8 @@
                 <li>Mezcla y masterización:$120 USD</li>
                 <li>Producción musical:$80 USD</li>
                 <li>Asesoría musical:$60 USD</li>
+                <li>Plantillas de Ableton: para que tus mezclas y grabaciones sean las mejores:$100 USD</li>
+                <li>Para metodos de pago,Dale al boton de Reservar Turno para que te contactes conmigo, si tienes alguna duda solo contactame.</li>
             </ul>
         </section>
         <section id="portfolio" class="content">
@@ -62,15 +69,15 @@
             <h2>Contacto</h2>
             <p>Para más información, síguenos en nuestras redes sociales:</p>
             <ul class="social-links">
-                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
-                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="www.youtube.com/@wr9musicofficial" target="_blank">YouTube</a></li>
+                <li><a href="https://www.instagram.com/wr9music?igsh=MXRnajAyZjdxZ3FrcQ==" target="_blank">Instagram</a></li>
             </ul>
             <form action="https://formspree.io/xwpkeeve" method="POST">
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-                <label for="phone">Número de teléfono o WhatsApp(Con el código del País):</label>
+                <label for="phone">Número de teléfono o WhatsApp (Con códigos del país):</label>
                 <input type="tel" id="phone" name="phone" required>
                 <label for="message">Mensaje:</label>
                 <textarea id="message" name="message" required></textarea>

@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const menuIcon = document.querySelector('.menu-icon');
+    const navUl = document.querySelector('nav ul');
+
+    menuIcon.addEventListener('click', function() {
+        navUl.classList.toggle('show-menu');
+    });
+
     document.getElementById('cart-icon').addEventListener('click', function() {
         document.getElementById('cart-modal').style.display = 'block';
     });
