@@ -1,15 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const menuIcon = document.querySelector('.menu-icon');
     const navUl = document.querySelector('nav ul');
-
     menuIcon.addEventListener('click', function() {
         navUl.classList.toggle('show-menu');
-    });
-
-    navUl.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-            navUl.classList.remove('show-menu');
-        });
     });
 
     document.getElementById('cart-icon').addEventListener('click', function() {

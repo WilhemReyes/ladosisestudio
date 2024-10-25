@@ -42,12 +42,58 @@ nav ul li a:hover {
     color: #3498db; /* Azul elegante */
 }
 
+nav .menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+nav .menu-icon div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav .menu-icon {
+        display: block;
+    }
+
+    nav .menu-icon.active .bar1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    nav .menu-icon.active .bar2 {
+        opacity: 0;
+    }
+
+    nav .menu-icon.active .bar3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+}
+
 .hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
     background-image: url('wIcon-no-background.png');
     background-size: cover;
     background-attachment: fixed;
@@ -194,7 +240,7 @@ footer a:hover {
     font-size: 1.2rem;
 }
 
-.social-links a:hover {
+social-links a:hover {
     color: #2980b9; /* Azul más oscuro */
 }
 
