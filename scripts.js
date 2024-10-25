@@ -6,6 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
         navUl.classList.toggle('show-menu');
     });
 
+    navUl.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            navUl.classList.remove('show-menu');
+        });
+    });
+
     document.getElementById('cart-icon').addEventListener('click', function() {
         document.getElementById('cart-modal').style.display = 'block';
     });
