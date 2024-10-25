@@ -9,11 +9,6 @@ body {
 header {
     background-color: #111;
     padding: 10px 20px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav {
@@ -199,7 +194,7 @@ footer a:hover {
     font-size: 1.2rem;
 }
 
-.social-links a:hover {
+social-links a:hover {
     color: #2980b9; /* Azul más oscuro */
 }
 
