@@ -3,101 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WR9 Records</title>
+    <title>La Dosis Estudio</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js"></script>
 </head>
 <body>
     <header>
+        <div class="header-container">
+            <h1>La Dosis Estudio</h1>
+            <img src="Icon-no-background.png" alt="Icono" class="icono">
+        </div>
         <nav>
-            <div class="logo"><img src="wr9-records-high-resolution-logo-grayscale-transparent.png" alt="WR9 Records Logo"></div>
-            <div class="menu-icon" onclick="toggleMenu()">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
+            <input type="checkbox" id="menu-checkbox">
+            <label for="menu-checkbox" class="menu-icon">&#9776;</label>
             <ul class="menu">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Nosotros</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#portfolio">Portafolio</a></li>
-                <li><a href="#contact">Contacto</a></li>
-                <li><a href="#appointment">Saca Tu Turno</a></li>
-                <li><a href="#privacy">Política de Privacidad</a></li>
+                <li><a href="#mix-master">Mix & Master</a></li>
+                <li><a href="#produccion-musical">Producción Musical</a></li>
+                <li><a href="#asesoria-musical">Asesoría Musical</a></li>
+                <li><a href="#grabacion-audio">Grabación de Audio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="home" class="hero">
-            <h1>Bienvenido a WR9 Records</h1>
-            <p>El mejor estudio de grabación para tus proyectos musicales</p>
-            <h3>Toca el botón de ¨Reservar Ahora¨ para que contrates tu servicio ya!!</h3>
-            <button class="cta-button" onclick="location.href='#appointment'">Reservar ahora</button>
+        <section id="mix-master">
+            <h2>Mix & Master</h2>
+            <p>Obtén el mejor sonido profesional para tus pistas.</p>
+            <a href="https://wa.me/+1 (343) 701-3877" class="button">Contratar Servicio</a>
         </section>
-        <section id="about" class="content">
-            <h2>Nosotros</h2>
-            <p>WR9 Records es un estudio de grabación profesional con años de experiencia en la industria musical.</p>
+        <section id="produccion-musical">
+            <h2>Producción Musical</h2>
+            <p>Desde la idea inicial hasta la producción final.</p>
+            <a href="https://wa.me/+1 (343) 701-3877" class="button">Contratar Servicio</a>
         </section>
-        <section id="services" class="content">
-            <h2>Servicios</h2>
-            <ul>
-                <li>Grabación de audio: No disponible por el momento, Trabajo de remodelación.</li>
-                <li>Mezcla y masterización: $120 USD</li>
-                <li>Producción musical: $80 USD</li>
-                <li>Asesoría musical: $60 USD</li>
-                <li>Plantillas de Ableton: para que tus mezclas y grabaciones sean las mejores: $100 USD</li>
-                <li>Para métodos de pago, Dale al botón de Reservar Turno para que te contactes conmigo, si tienes alguna duda solo contactame.</li>
-            </ul>
+        <section id="asesoria-musical">
+            <h2>Asesoría Musical</h2>
+            <p>Recibe consejos de expertos para mejorar tu música.</p>
+            <a href="https://wa.me/+1 (343) 701-3877" class="button">Contratar Servicio</a>
         </section>
-        <section id="portfolio" class="content">
+        <section id="grabacion-audio">
+            <h2>Grabación de Audio</h2>
+            <p>No disponible por el momento por trabajos de construcción 👷‍♂️</p>
+        </section>
+        <section id="portafolio">
             <h2>Portafolio</h2>
-            <div class="portfolio-items">
-                <div class="portfolio-item">
-                    <img src="project1.jpg" alt="Proyecto 1">
-                    <p>Proyecto 1</p>
+            <div class="videos">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/9o7hp3Zxarw?si=bPgbpoHrIum9srDB" frameborder="0" allowfullscreen></iframe>
+                    <p>FreeStyle-Pablo Brito/Produccion, Mix & Master.</p>
                 </div>
-                <div class="portfolio-item">
-                    <img src="project2.jpg" alt="Proyecto 2">
-                    <p>Proyecto 2</p>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/ZjzFWia5x6Q?si=CjWic6a8T2SlnzFw" frameborder="0" allowfullscreen></iframe>
+                    <p>Jessimar/Escandalo Records-Na Que Ver
+                        /Participación.</p>
                 </div>
-                <div class="portfolio-item">
-                    <img src="project3.jpg" alt="Proyecto 3">
-                    <p>Proyecto 3</p>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/EWP3cOpdG_A?si=14KLH40E9wbH6SN0" frameborder="0" allowfullscreen></iframe>
+                    <p>Chivao-Ja Rulay/Participación.</p>
                 </div>
             </div>
         </section>
-        <section id="contact" class="content">
+        <section id="contacto">
             <h2>Contacto</h2>
-            <p>Para más información, síguenos en nuestras redes sociales:</p>
-            <ul class="social-links">
-                <li><a href="https://www.youtube.com/@wr9musicofficial" target="_blank">YouTube</a></li>
-                <li><a href="https://www.instagram.com/wr9music?igsh=MXRnajAyZjdxZ3FrcQ==" target="_blank">Instagram</a></li>
-            </ul>
-            <form action="https://formspree.io/xwpkeeve" method="POST">
+            <form action="https://formspree.io/f/xwpkeeve" method="POST">
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" required>
+                
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="phone">Número de teléfono o WhatsApp (Con códigos del país):</label>
-                <input type="tel" id="phone" name="phone" required>
+                <input type="email" id="email" name="_replyto" required>
+                
                 <label for="message">Mensaje:</label>
                 <textarea id="message" name="message" required></textarea>
+                
                 <button type="submit">Enviar</button>
             </form>
         </section>
-        <section id="appointment" class="content">
-            <h2>Saca Tu Turno</h2>
-            <p>Haz clic en el botón de abajo para reservar tu turno a través de WhatsApp:</p>
-            <a href="https://wa.me/message/HGCDHIYGOZXMO1" class="cta-button">Reservar Turno</a>
-        </section>
-        <section id="privacy" class="content">
-            <h2>Política de Privacidad</h2>
-            <p>En WR9 Records, valoramos tu privacidad y estamos comprometidos a proteger tus datos personales. Toda la información recopilada se utilizará únicamente para proporcionar y mejorar nuestros servicios. No compartiremos tu información con terceros sin tu consentimiento explícito.</p>
-            <p>Para más detalles sobre nuestras prácticas de privacidad, visita nuestra <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank">Política de Privacidad</a>.</p>
-        </section>
     </main>
     <footer>
-        <p>© 2024 WR9 Records. Todos los derechos reservados.</p>
+        <div class="social-buttons">
+            <a href="https://www.instagram.com/wr9music" target="_blank">
+                <img src="3721672-instagram_108066 (2).png" alt="Instagram">
+            </a>
+            <a href="https://www.youtube.com/ladosisstudio" target="_blank">
+                <img src="Youtube_icon-icons.com_66802 (2).png" alt="YouTube">
+            </a>
+        </div>
+        <p>&copy; 2024 La Dosis Estudio. Todos los derechos reservados.</p>
+        <img src="Monografia.png" alt="Logo pequeño" class="footer-logo">
     </footer>
 </body>
 </html>
